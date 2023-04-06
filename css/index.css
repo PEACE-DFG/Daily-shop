@@ -210,6 +210,14 @@ nav{
     }
    
   }
-  @media(max-width:440){
+  @media(max-width:450){
+    .imgtext{
+        top: 200px;
+      left: 70px;
+    }
+    .center{
+       margin: 50px;
+    }
+    
    
   }
