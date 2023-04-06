@@ -1,0 +1,215 @@
+nav{
+    /* flex-wrap: wrap; */
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  *{
+      margin: 0px;
+  }
+  .navleft{
+      display: flex;
+  }
+  .first{
+      font-size: 50px;
+      color: red;
+  }
+
+  .navwrap{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .navend{
+      padding-top: 0px;
+      margin-top: 0px;
+  }
+  .red{
+      background-color: red;
+      color: white;
+      display: flex;
+      padding: 10px;
+      justify-content: space-evenly;
+      padding-right: 300px;
+      flex-wrap: wrap;
+  }
+  .imgsection{
+      background-image: url('../images/woman.jpg');
+       background-size: cover;
+       background-repeat: no-repeat;
+      width: 100%;
+     height: 450px;
+     position: relative;
+  
+  }
+  .imgtext{
+      position: absolute;
+      top: 200px;
+      left: 600px;
+      color: white;
+      font-size: 30px;
+
+  }
+  .space{
+      background-color: rgb(191, 187, 187);
+      padding-bottom: 30px;
+  }
+  .center{
+      margin: 100px;
+      
+      background-color: white;
+  }
+  .centerone{
+      padding: 40px;
+      text-align: center;
+  }
+  .real{
+      margin: 50px;
+  }
+  .rightform{
+      margin: 10px;
+  }
+  .leftform{
+      margin: 10px;
+  }
+  .flex2{
+      display: flex;
+      justify-content: space-around;
+  }
+  .flex3{
+      display: flex;
+      justify-content: space-around;
+      padding: 100px;
+  }
+  .root{
+      color: white;
+      background-color: black;
+  }
+  .root div p{
+      padding-top: 10px;
+      color: grey;
+  }
+  @media(max-width:999px){
+    nav{
+       margin-top: 30px;
+        margin-left: 20px;
+         margin-right: 20px;
+    }
+    .navmiddle{
+        text-align: center;
+        padding-right: 350px;
+    }
+    .red{
+        width: auto;
+    }
+    .imagesection {
+        top: 200px;
+        left: 200px;    
+    }
+    
+    .form{
+        display: inline;
+        width: auto;
+        /* left: 50px; */
+        display: none;
+        /* flex-direction: column; */
+    }
+    .single{
+        padding-right: 10px;
+    }
+    .real{
+        margin: 10px;
+        padding: 10px;
+    }
+    .leftform{
+        margin: 5px;
+    }
+    .rightform{
+        margin: 5px;
+    }
+    .email{
+        margin: 25px;
+    }
+    .padding{
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    .textarea{
+        margin: 25px;
+    }
+    .root{
+        padding: 20px;
+    }
+    .flex3{
+        padding: 10px;
+    }
+  }
+  @media(max-width:875px){
+    .red{
+        /* justify-content: space-between; */
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .navwrap{
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+    .navend{
+        padding-top: 30px;
+    }
+    .navmiddle{
+        /* padding-left: 0px; */
+        justify-content: flex-end;
+        /* margin-left: 30px; */
+        padding-top: 30px;
+    }
+  .flex2{
+    flex-wrap: wrap;
+  }
+  }
+  @media(max-width:831px){
+    .navleft{
+        flex-direction: column;
+    }
+    .imgtext{
+        top: 200px;
+      left: 300px;
+    }
+    .flex3{
+        flex-wrap: wrap;
+        /* padding: 30px; */
+        /* margin: 50px; */
+    }
+    .branch{
+        padding: 50px;
+    }
+  }
+  @media(max-width:590px){
+    nav{
+        margin-left: 0px;
+    }
+    .real{
+        text-align: center;
+    }
+    .textarea {
+        display: none;
+       /* margin: px; */
+       /* padding: 100px; */
+        
+    }
+    .imgtext{
+        top: 200px;
+      left: 150px;
+    }
+    .same{
+        padding :20px
+    }
+    .padding{
+        margin-right: 13px;
+    }
+   
+  }
+  @media(max-width:440){
+   
+  }
