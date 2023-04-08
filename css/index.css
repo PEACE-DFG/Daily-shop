@@ -189,6 +189,10 @@ nav{
     nav{
         margin-left: 0px;
     }
+    .space{
+        background: none;
+        margin: 0px;
+    }
     .real{
         text-align: center;
     }
@@ -208,15 +212,31 @@ nav{
     .padding{
         margin-right: 13px;
     }
+    .center{
+        margin: 0px;
+        padding: 0px;
+        /* background:linear-gradient(red,blue,white); */
+     }
    
   }
-  @media(max-width:450){
+  @media(max-width:410){
+
     .imgtext{
         top: 200px;
-      left: 70px;
+      left: 10px;
     }
     .center{
-       margin: 50px;
+       margin: 0px;
+       padding: 100px;
+       /* background:linear-gradient(red,blue,white); */
+    }
+    .space{
+        background: none;
+        margin: 0px;
+    }
+    .real{
+        margin: 0px;
+        padding: 0px;
     }
     
    
