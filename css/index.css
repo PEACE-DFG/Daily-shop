@@ -1,12 +1,20 @@
 nav{
     /* flex-wrap: wrap; */
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
   }
   *{
       margin: 0px;
+      padding: 0px;
   }
+  .goods{
+    /* padding-left:50px; */
+    text-align: center;
+    font-size:30px;
+     color:red;
+  }
+  
   .navleft{
       display: flex;
   }
@@ -14,11 +22,26 @@ nav{
       font-size: 50px;
       color: red;
   }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+   color:gold;
+   border: 2px solid white;
+   border-radius: 50px;
+   background-color: rgb(239, 239, 250);
+   padding:5px 10px;
+   text-align: center;
+  }
+  a:active{
+    color: blue;
+  }
 
   .navwrap{
       display: flex;
       justify-content: space-between;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
   }
   .navend{
       padding-top: 0px;
@@ -89,155 +112,334 @@ nav{
       padding-top: 10px;
       color: grey;
   }
-  @media(max-width:999px){
-    nav{
-       margin-top: 30px;
-        margin-left: 20px;
-         margin-right: 20px;
-    }
-    .navmiddle{
-        text-align: center;
-        padding-right: 350px;
-    }
-    .red{
-        width: auto;
-    }
-    .imagesection {
-        top: 200px;
-        left: 200px;    
-    }
-    
-    .form{
-        display: inline;
-        width: auto;
-        /* left: 50px; */
-        display: none;
-        /* flex-direction: column; */
-    }
-    .single{
-        padding-right: 10px;
-    }
-    .real{
-        margin: 10px;
-        padding: 10px;
-    }
-    .leftform{
-        margin: 5px;
-    }
-    .rightform{
-        margin: 5px;
-    }
-    .email{
-        margin: 25px;
-    }
-    .padding{
-        margin-left: 25px;
-        margin-top: 30px;
-    }
-    .textarea{
-        margin: 25px;
-    }
-    .root{
-        padding: 20px;
-    }
-    .flex3{
-        padding: 10px;
-    }
+  .subscribe{
+    position: absolute;
+    left:898px;
+    padding:7px; 
+    background-color:red;
+     color:white;
+      border:none;
   }
-  @media(max-width:875px){
-    .red{
-        /* justify-content: space-between; */
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  @media( max-width:1347px){
     .navwrap{
-        padding-left: 30px;
-        padding-right: 30px;
-        
-    }
-    .navend{
-        padding-top: 30px;
-    }
-    .navmiddle{
-        /* padding-left: 0px; */
-        justify-content: flex-end;
-        /* margin-left: 30px; */
-        padding-top: 30px;
-    }
+      /* display: flex; */
+      /* justify-content: space-around; */
+      flex-wrap: wrap;
+  }
+  .navmiddle{
+    padding-right: 290px;
+
+  }
+   .real{
+      margin: 50px;
+      text-align: center;
+  }
+  .rightform{
+      margin: 10px;
+  }
+  .leftform{
+      margin: 10px;
+  }
+  .email{
+    margin-left: 30px;
+  }
+  .padding{
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  }
+  @media(max-width:1224px){
+    .subscribe{
+    left: 810px;
+  }
+
+  }
+  @media(max-width:1112px){
+    .subscribe{
+    left: 795px;
+  }
+  }
+  @media(max-width:1104px){
+    .subscribe{
+    left: 785px;
+  }
+  }
+  @media(max-width:1088px){
+    .subscribe{
+    left: 775px;
+  }
+  }
+    @media(max-width:1064px){
+    .subscribe{
+    left: 765px;
+  }
+  }
+    @media(max-width:1048px){
+    .subscribe{
+    left: 750px;
+  }
+  }
+    @media(max-width:1032px){
+    .subscribe{
+    left: 670px;
+  }
   .flex2{
     flex-wrap: wrap;
   }
+  .flex3{
+    flex-wrap: wrap;
+    
   }
-  @media(max-width:831px){
-    .navleft{
-        flex-direction: column;
-    }
-    .imgtext{
-        top: 200px;
-      left: 300px;
-    }
-    .flex3{
-        flex-wrap: wrap;
-        /* padding: 30px; */
-        /* margin: 50px; */
-    }
+  .branch{
+    margin: 50px;
+    padding: 50px;
+  }
+  }
+  @media(max-width:942px){
     .branch{
-        padding: 50px;
+      margin: 50px;
+      padding: 30px;
     }
   }
-  @media(max-width:590px){
-    nav{
-        margin-left: 0px;
-    }
-    .space{
-        background: none;
-        margin: 0px;
-    }
-    .real{
-        text-align: center;
-    }
-    .textarea {
-        display: none;
-       /* margin: px; */
-       /* padding: 100px; */
-        
+    @media(max-width:924px){
+    .subscribe{
+    left: 610px;
     }
     .imgtext{
-        top: 200px;
-      left: 100px;
+        left: 400px;
+    }
+  }
+  @media(max-width:900px){
+    
+    .red{
+      background-color: red;
+      color: white;
+      display: flex;
+      padding: 10px;
+      justify-content: space-evenly;
+      padding-right: 0px;
+      /* flex-wrap: wrap; */
+  }
+
+    /* fgbvduhncmwefidjfcnmxweru,jigodfncm,dfnimcdrhwjfncdmxdh */
+  }
+  @media(max-width:864px){
+    .branch{
+      margin: 50px;
+      padding: 20px;
+    }
+  }
+    @media(max-width:849px){
+    .subscribe{
+    left: 570px;
+  }
+  .send{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .branch{
+    margin: 50px;
+    padding: 10px;
+  }
+  }
+    @media(max-width:796px){
+    .subscribe{
+    left: 520px;
+  }
+  .branch{
+    margin: 40px;
+    padding: 10px;
+  }
+  }
+  @media(max-width:744px){
+    .branch{
+      margin: 30px;
+      padding: 10px;
+    }
+    /* #####################################################33 */
+    .navwrap{
+      display: block;
+      /* justify-content: space-between; */
+      text-align: center;
+      /* flex-wrap: wrap; */
+      padding: 10px 0px;
+  }
+  .navleft{
+    text-align: center;
+    margin-left: 200px;
+    padding: 20px 0px;
+  }
+  .navmiddle{
+    text-align: center;
+    margin-left: -252px;
+    padding: 20px 0px;
+  }
+  .navend{
+      padding:20px  0px;
+      
+  }
+  .shoe{
+    padding-left: 0px;
+  }
+  }
+  @media(max-width:704px){
+    .branch{
+      margin: 20px;
+      padding: 10px;
+    }
+  }
+    @media(max-width:727px){
+    .subscribe{
+    left: 490px;
+  }
+  }
+    @media(max-width:684px){
+    .subscribe{
+    left: 430px;
+  }
+  .navwrap{
+    display: block;
+    /* justify-content: space-between; */
+    text-align: center;
+    /* flex-wrap: wrap; */
+    padding: 10px 0px;
+}
+.navleft{
+  text-align: center;
+  margin-left: 150px;
+  padding: 20px 0px;
+}
+.navmiddle{
+  text-align: center;
+  margin-left: -342px;
+  padding: 20px 0px;
+}
+.navend{
+    padding:20px  0px;
+    margin-left: -100px;
+    
+}
+.shoe{
+  padding-left: 0px;
+}
+  .center{
+    margin: 50px;
+    
+    background-color: white;
+}
+  }
+  @media(max-width:664px){
+    .branch{
+      margin: 30px;
+      padding: 30px;
+    }
+  }
+    @media(max-width:612px){
+    .subscribe{
+    left: 350px;
+  }
+  .imgtext{
+    left: 200px;
+}
+.send{
+  text-align: center;
+  margin-right: 5px;
+}
+.navwrap{
+  display: block;
+  /* justify-content: space-between; */
+  text-align: center;
+  /* flex-wrap: wrap; */
+  padding: 10px 0px;
+}
+.navleft{
+text-align: center;
+margin-left: 80px;
+padding: 20px 0px;
+}
+.navmiddle{
+text-align: center;
+margin-left: -312px;
+padding: 20px 0px;
+}
+.navend{
+  padding:20px  0px;
+  
+}
+.shoe{
+padding-left: 0px;
+}
+  }
+  @media(max-width:577px){
+    .red{
+      background-color: red;
+      color: white;
+      display: flex;
+      padding: 10px;
+      justify-content:space-between;
+      /* padding-right: 300px; */
+      /* flex-wrap: wrap; */
+  }
+  }
+    @media(max-width:500px){
+      .red{
+        background-color: red;
+        color: white;
+        display: flex;
+        padding: 10px;
+        text-align: center;
+        flex-direction: column;
+       flex: none;
     }
     .same{
-        padding :20px
+      margin-top: 20px;
     }
-    .padding{
-        margin-right: 13px;
-    }
-    .center{
-        margin: 0px;
-        padding: 0px;
-        /* background:linear-gradient(red,blue,white); */
-     }
-   
+      .subscribe{
+    left: 280px;
   }
-  @media(max-width:410){
-
-    .imgtext{
-        top: 200px;
-      left: 5px;
-    }
-    .center{
-       margin: 0px;
-       padding: 100px;
-       /* background:linear-gradient(red,blue,white); */
-    }
-    .space{
-        background: none;
-        margin: 0px;
-    }
-    .real{
-        margin: 0px;
-        padding: 0px;
-    }
+  .center{
+    margin: 0px;
     
-   
+    background-color: white;
+}
+nav{
+  text-align: center;
+  width: 50px;
+}
   }
+    @media(max-width:425px){
+    .subscribe{
+    left: 250px;
+  }
+  .imgtext{
+    left: 100px;
+}
+}
+@media(max-width:504px){
+  .navwrap{
+    display: block;
+    /* justify-content: space-between; */
+    text-align: center;
+    /* flex-wrap: wrap; */
+    padding: 10px 0px;
+}
+.navleft{
+  text-align: center;
+  margin-left: 120px;
+  padding: 20px 0px;
+}
+.navmiddle{
+  text-align: center;
+  margin-left: -250px;
+  padding: 20px 0px;
+}
+.navend{
+    padding:20px  0px;
+    padding-left: 100px;
+    
+}
+.shoe{
+  padding-left: 0px;
+}
+}
