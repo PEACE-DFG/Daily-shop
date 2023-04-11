@@ -102,7 +102,7 @@ nav{
   .flex3{
       display: flex;
       justify-content: space-around;
-      padding: 100px;
+      /* padding: 100px; */
   }
   .root{
       color: white;
@@ -112,6 +112,7 @@ nav{
       padding-top: 10px;
       color: grey;
   }
+ 
   .subscribe{
     position: absolute;
     left:898px;
@@ -119,6 +120,15 @@ nav{
     background-color:red;
      color:white;
       border:none;
+  }
+  .send{
+    margin-top:10px;
+    /* color:red; */
+    margin-left: 30px;
+  }
+  .branch{
+    padding: 50px;
+    width: 100%;
   }
   @media( max-width:1347px){
     .navwrap{
@@ -141,10 +151,10 @@ nav{
       margin: 10px;
   }
   .email{
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .padding{
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 10px;
   }
 
@@ -191,16 +201,16 @@ nav{
     flex-wrap: wrap;
     
   }
-  .branch{
+  /* .branch{
     margin: 50px;
     padding: 50px;
-  }
+  } */
   }
   @media(max-width:942px){
-    .branch{
+    /* .branch{
       margin: 50px;
       padding: 30px;
-    }
+    } */
   }
     @media(max-width:924px){
     .subscribe{
@@ -238,25 +248,26 @@ nav{
     text-align: center;
     margin-top: 50px;
   }
-  .branch{
+  /* .branch{
     margin: 50px;
     padding: 10px;
-  }
+  } */
   }
     @media(max-width:796px){
     .subscribe{
     left: 520px;
   }
-  .branch{
+  /* .branch{
     margin: 40px;
     padding: 10px;
+  } */
   }
-  }
+ 
   @media(max-width:744px){
-    .branch{
+    /* .branch{
       margin: 30px;
       padding: 10px;
-    }
+    } */
     /* #####################################################33 */
     .navwrap{
       display: block;
@@ -284,10 +295,10 @@ nav{
   }
   }
   @media(max-width:704px){
-    .branch{
+    /* .branch{
       margin: 20px;
       padding: 10px;
-    }
+    } */
   }
     @media(max-width:727px){
     .subscribe{
@@ -331,8 +342,9 @@ nav{
   }
   @media(max-width:664px){
     .branch{
-      margin: 30px;
-      padding: 30px;
+      display: block;
+      /* margin: 30px;
+      padding: 30px; */
     }
   }
     @media(max-width:612px){
@@ -371,17 +383,19 @@ padding: 20px 0px;
 padding-left: 0px;
 }
   }
-  @media(max-width:577px){
+  @media(min-width:503px){
     .red{
       background-color: red;
       color: white;
       display: flex;
-      padding: 10px;
+      padding: 10px 15px;
       justify-content:space-between;
       /* padding-right: 300px; */
       /* flex-wrap: wrap; */
+      display: none;
   }
   }
+
     @media(max-width:500px){
       .red{
         background-color: red;
@@ -442,4 +456,23 @@ nav{
 .shoe{
   padding-left: 0px;
 }
+}
+@media(max-width:500px){
+  .navleft{
+    text-align: center;
+    margin-left: 120px;
+    padding: 20px 0px;
+  }
+  .navmiddle{
+    text-align: center;
+    margin-left: 80px;
+    padding: 20px 0px;
+  }
+  .navend{
+      padding:20px  0px;
+      padding-left: 100px;
+      margin-left: 80px;
+      
+  }
+  
 }
